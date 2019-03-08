@@ -1,0 +1,33 @@
+PODS:
+  - CryptoSwift (0.13.1)
+  - Geth (1.8.21)
+  - web3swift (0.0.9):
+    - CryptoSwift
+    - Geth
+
+DEPENDENCIES:
+  - web3swift (from `https://github.com/MercuryProtocol/web3.swift.git`, branch `master`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - CryptoSwift
+    - Geth
+
+EXTERNAL SOURCES:
+  web3swift:
+    :branch: master
+    :git: https://github.com/MercuryProtocol/web3.swift.git
+
+CHECKOUT OPTIONS:
+  web3swift:
+    :commit: fe0c3047cc9f808774c6172afe3cb126715adf49
+    :git: https://github.com/MercuryProtocol/web3.swift.git
+
+SPEC CHECKSUMS:
+  CryptoSwift: ff68c35a53e03177d31aaa2c1e8b3e010aeed6cb
+  Geth: 555e61fd9488a7afc89df5e85bb4ec8e643fcf21
+  web3swift: 9cf4ccef0c7f7e9f9abb3bc5867789b928800af6
+
+PODFILE CHECKSUM: d3bbdc3be050789b089d4dc0eb83ef6143f35824
+
+COCOAPODS: 1.6.1

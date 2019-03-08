@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1D378551871275D2EEACA1C4 /* Pods_eGovernment.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C106220EEDEB18A40384587 /* Pods_eGovernment.framework */; };
+		1F1764C8222DDD7C00F1B91D /* web3swift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F1764C7222DDD7C00F1B91D /* web3swift.framework */; };
+		1F176722222DE02000F1B91D /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F176715222DDFEA00F1B91D /* Alamofire.framework */; };
+		1F3FBBFA2231ECEB006EF325 /* Block.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F3FBBF92231ECEB006EF325 /* Block.swift */; };
+		1F3FBC042231ED22006EF325 /* Blockchain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F3FBC032231ED22006EF325 /* Blockchain.swift */; };
+		1F3FBC082231F55B006EF325 /* BlockchainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F3FBC072231F55B006EF325 /* BlockchainViewController.swift */; };
+		1F3FBC0A2231FF75006EF325 /* BlockMain.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F3FBC092231FF75006EF325 /* BlockMain.storyboard */; };
+		1F3FBC0C2232061A006EF325 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F3FBC0B2232061A006EF325 /* CustomButton.swift */; };
+		1FB58496222C1D13004B00D4 /* TransferViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FB58495222C1D12004B00D4 /* TransferViewController.swift */; };
+		1FB58498222C1D95004B00D4 /* CreateAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FB58497222C1D95004B00D4 /* CreateAccountViewController.swift */; };
 		1FDD3FDF222B00A400A416D5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FDD3FDE222B00A400A416D5 /* AppDelegate.swift */; };
 		1FDD3FE1222B00A400A416D5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FDD3FE0222B00A400A416D5 /* ViewController.swift */; };
 		1FDD3FE4222B00A400A416D5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FDD3FE2222B00A400A416D5 /* Main.storyboard */; };
@@ -17,6 +27,55 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		1F176714222DDFEA00F1B91D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1F176709222DDFE900F1B91D /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F8111E3319A95C8B0040E7D1;
+			remoteInfo = "Alamofire iOS";
+		};
+		1F176716222DDFEA00F1B91D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1F176709222DDFE900F1B91D /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F8111E3E19A95C8B0040E7D1;
+			remoteInfo = "Alamofire iOS Tests";
+		};
+		1F176718222DDFEA00F1B91D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1F176709222DDFE900F1B91D /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4DD67C0B1A5C55C900ED2280;
+			remoteInfo = "Alamofire macOS";
+		};
+		1F17671A222DDFEA00F1B91D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1F176709222DDFE900F1B91D /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F829C6B21A7A94F100A2CD59;
+			remoteInfo = "Alamofire macOS Tests";
+		};
+		1F17671C222DDFEA00F1B91D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1F176709222DDFE900F1B91D /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4CF626EF1BA7CB3E0011A099;
+			remoteInfo = "Alamofire tvOS";
+		};
+		1F17671E222DDFEA00F1B91D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1F176709222DDFE900F1B91D /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4CF626F81BA7CB3E0011A099;
+			remoteInfo = "Alamofire tvOS Tests";
+		};
+		1F176720222DDFEA00F1B91D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1F176709222DDFE900F1B91D /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = E4202FE01B667AA100C997FB;
+			remoteInfo = "Alamofire watchOS";
+		};
 		1FDD3FF0222B00AD00A416D5 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 1FDD3FD3222B00A400A416D5 /* Project object */;
@@ -34,6 +93,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1F1764BB222DDB9B00F1B91D /* web3swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = web3swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F1764C7222DDD7C00F1B91D /* web3swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = web3swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F176709222DDFE900F1B91D /* Alamofire.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = Alamofire.xcodeproj; sourceTree = SOURCE_ROOT; };
+		1F3FBBF92231ECEB006EF325 /* Block.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Block.swift; sourceTree = "<group>"; };
+		1F3FBC032231ED22006EF325 /* Blockchain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Blockchain.swift; sourceTree = "<group>"; };
+		1F3FBC072231F55B006EF325 /* BlockchainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlockchainViewController.swift; sourceTree = "<group>"; };
+		1F3FBC092231FF75006EF325 /* BlockMain.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = BlockMain.storyboard; sourceTree = "<group>"; };
+		1F3FBC0B2232061A006EF325 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		1FB58495222C1D12004B00D4 /* TransferViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransferViewController.swift; sourceTree = "<group>"; };
+		1FB58497222C1D95004B00D4 /* CreateAccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountViewController.swift; sourceTree = "<group>"; };
 		1FDD3FDB222B00A400A416D5 /* eGovernment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = eGovernment.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FDD3FDE222B00A400A416D5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1FDD3FE0222B00A400A416D5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +116,9 @@
 		1FDD3FFA222B00AD00A416D5 /* eGovernmentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = eGovernmentUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FDD3FFE222B00AD00A416D5 /* eGovernmentUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = eGovernmentUITests.swift; sourceTree = "<group>"; };
 		1FDD4000222B00AD00A416D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A991E3F52F7E4E5CD2B95EA /* Pods-eGovernment.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-eGovernment.release.xcconfig"; path = "Target Support Files/Pods-eGovernment/Pods-eGovernment.release.xcconfig"; sourceTree = "<group>"; };
+		6C106220EEDEB18A40384587 /* Pods_eGovernment.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_eGovernment.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		931DB4EBB4D0BD14E02518CA /* Pods-eGovernment.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-eGovernment.debug.xcconfig"; path = "Target Support Files/Pods-eGovernment/Pods-eGovernment.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +126,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F176722222DE02000F1B91D /* Alamofire.framework in Frameworks */,
+				1F1764C8222DDD7C00F1B91D /* web3swift.framework in Frameworks */,
+				1D378551871275D2EEACA1C4 /* Pods_eGovernment.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +149,41 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1F17670A222DDFE900F1B91D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1F176715222DDFEA00F1B91D /* Alamofire.framework */,
+				1F176717222DDFEA00F1B91D /* Alamofire iOS Tests.xctest */,
+				1F176719222DDFEA00F1B91D /* Alamofire.framework */,
+				1F17671B222DDFEA00F1B91D /* Alamofire macOS Tests.xctest */,
+				1F17671D222DDFEA00F1B91D /* Alamofire.framework */,
+				1F17671F222DDFEA00F1B91D /* Alamofire tvOS Tests.xctest */,
+				1F176721222DDFEA00F1B91D /* Alamofire.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1F3FBC052231F490006EF325 /* Picture */ = {
+			isa = PBXGroup;
+			children = (
+				1FDD3FE0222B00A400A416D5 /* ViewController.swift */,
+				1FDD3FE2222B00A400A416D5 /* Main.storyboard */,
+			);
+			path = Picture;
+			sourceTree = "<group>";
+		};
+		1F3FBC062231F51A006EF325 /* Blockchain */ = {
+			isa = PBXGroup;
+			children = (
+				1F3FBC092231FF75006EF325 /* BlockMain.storyboard */,
+				1F3FBBF92231ECEB006EF325 /* Block.swift */,
+				1F3FBC032231ED22006EF325 /* Blockchain.swift */,
+				1F3FBC072231F55B006EF325 /* BlockchainViewController.swift */,
+				1F3FBC0B2232061A006EF325 /* CustomButton.swift */,
+			);
+			path = Blockchain;
+			sourceTree = "<group>";
+		};
 		1FDD3FD2222B00A400A416D5 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +191,8 @@
 				1FDD3FF2222B00AD00A416D5 /* eGovernmentTests */,
 				1FDD3FFD222B00AD00A416D5 /* eGovernmentUITests */,
 				1FDD3FDC222B00A400A416D5 /* Products */,
+				4A9A1284391849FFA051C017 /* Pods */,
+				6B9D96405FA260E15F827168 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,11 +210,14 @@
 			isa = PBXGroup;
 			children = (
 				1FDD3FDE222B00A400A416D5 /* AppDelegate.swift */,
-				1FDD3FE0222B00A400A416D5 /* ViewController.swift */,
-				1FDD3FE2222B00A400A416D5 /* Main.storyboard */,
+				1F3FBC052231F490006EF325 /* Picture */,
+				1F3FBC062231F51A006EF325 /* Blockchain */,
+				1F176709222DDFE900F1B91D /* Alamofire.xcodeproj */,
 				1FDD3FE5222B00AC00A416D5 /* Assets.xcassets */,
 				1FDD3FE7222B00AC00A416D5 /* LaunchScreen.storyboard */,
 				1FDD3FEA222B00AC00A416D5 /* Info.plist */,
+				1FB58495222C1D12004B00D4 /* TransferViewController.swift */,
+				1FB58497222C1D95004B00D4 /* CreateAccountViewController.swift */,
 			);
 			path = eGovernment;
 			sourceTree = "<group>";
@@ -125,6 +240,25 @@
 			path = eGovernmentUITests;
 			sourceTree = "<group>";
 		};
+		4A9A1284391849FFA051C017 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				931DB4EBB4D0BD14E02518CA /* Pods-eGovernment.debug.xcconfig */,
+				2A991E3F52F7E4E5CD2B95EA /* Pods-eGovernment.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		6B9D96405FA260E15F827168 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1F1764C7222DDD7C00F1B91D /* web3swift.framework */,
+				1F1764BB222DDB9B00F1B91D /* web3swift.framework */,
+				6C106220EEDEB18A40384587 /* Pods_eGovernment.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +266,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1FDD4003222B00AD00A416D5 /* Build configuration list for PBXNativeTarget "eGovernment" */;
 			buildPhases = (
+				425D4C4E6819F265B63DF17E /* [CP] Check Pods Manifest.lock */,
 				1FDD3FD7222B00A400A416D5 /* Sources */,
 				1FDD3FD8222B00A400A416D5 /* Frameworks */,
 				1FDD3FD9222B00A400A416D5 /* Resources */,
+				93E9D9DFBDB28BF920830BF3 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -215,6 +351,12 @@
 			mainGroup = 1FDD3FD2222B00A400A416D5;
 			productRefGroup = 1FDD3FDC222B00A400A416D5 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 1F17670A222DDFE900F1B91D /* Products */;
+					ProjectRef = 1F176709222DDFE900F1B91D /* Alamofire.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				1FDD3FDA222B00A400A416D5 /* eGovernment */,
@@ -224,6 +366,58 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXReferenceProxy section */
+		1F176715222DDFEA00F1B91D /* Alamofire.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Alamofire.framework;
+			remoteRef = 1F176714222DDFEA00F1B91D /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		1F176717222DDFEA00F1B91D /* Alamofire iOS Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "Alamofire iOS Tests.xctest";
+			remoteRef = 1F176716222DDFEA00F1B91D /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		1F176719222DDFEA00F1B91D /* Alamofire.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Alamofire.framework;
+			remoteRef = 1F176718222DDFEA00F1B91D /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		1F17671B222DDFEA00F1B91D /* Alamofire macOS Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "Alamofire macOS Tests.xctest";
+			remoteRef = 1F17671A222DDFEA00F1B91D /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		1F17671D222DDFEA00F1B91D /* Alamofire.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Alamofire.framework;
+			remoteRef = 1F17671C222DDFEA00F1B91D /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		1F17671F222DDFEA00F1B91D /* Alamofire tvOS Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "Alamofire tvOS Tests.xctest";
+			remoteRef = 1F17671E222DDFEA00F1B91D /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		1F176721222DDFEA00F1B91D /* Alamofire.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Alamofire.framework;
+			remoteRef = 1F176720222DDFEA00F1B91D /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
 /* Begin PBXResourcesBuildPhase section */
 		1FDD3FD9222B00A400A416D5 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
@@ -232,6 +426,7 @@
 				1FDD3FE9222B00AC00A416D5 /* LaunchScreen.storyboard in Resources */,
 				1FDD3FE6222B00AC00A416D5 /* Assets.xcassets in Resources */,
 				1FDD3FE4222B00A400A416D5 /* Main.storyboard in Resources */,
+				1F3FBC0A2231FF75006EF325 /* BlockMain.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,13 +446,66 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		425D4C4E6819F265B63DF17E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-eGovernment-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		93E9D9DFBDB28BF920830BF3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-eGovernment/Pods-eGovernment-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/CryptoSwift/CryptoSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CryptoSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-eGovernment/Pods-eGovernment-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1FDD3FD7222B00A400A416D5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1FB58498222C1D95004B00D4 /* CreateAccountViewController.swift in Sources */,
 				1FDD3FE1222B00A400A416D5 /* ViewController.swift in Sources */,
+				1F3FBC0C2232061A006EF325 /* CustomButton.swift in Sources */,
+				1F3FBBFA2231ECEB006EF325 /* Block.swift in Sources */,
 				1FDD3FDF222B00A400A416D5 /* AppDelegate.swift in Sources */,
+				1FB58496222C1D13004B00D4 /* TransferViewController.swift in Sources */,
+				1F3FBC082231F55B006EF325 /* BlockchainViewController.swift in Sources */,
+				1F3FBC042231ED22006EF325 /* Blockchain.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -430,11 +678,13 @@
 		};
 		1FDD4004222B00AD00A416D5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 931DB4EBB4D0BD14E02518CA /* Pods-eGovernment.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6L9L4MT67F;
 				INFOPLIST_FILE = eGovernment/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -448,11 +698,13 @@
 		};
 		1FDD4005222B00AD00A416D5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A991E3F52F7E4E5CD2B95EA /* Pods-eGovernment.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6L9L4MT67F;
 				INFOPLIST_FILE = eGovernment/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

@@ -30,7 +30,7 @@ So, now people have an incentive as well.
 
 Simple.
 
-TEAM :
+**TEAM:**
 
 Youandblockchain : Damien and François 
 
@@ -45,3 +45,12 @@ Marcelo — https://www.linkedin.com/in/marcelosotomaior/
 Bakhtiiar — https://www.linkedin.com/in/bakhtiiar-muzakparov/
 
 Sahil — https://www.linkedin.com/in/sahil-makwane-a2808a113/
+
+
+**Usage**
+
+Run ```the file eGovernment.xcworkspace```
+
+**Requirements**
+
+XCode 10
